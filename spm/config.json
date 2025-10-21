@@ -1,0 +1,22 @@
+{
+  "architectures": [
+    "SuperPointModel"
+  ],
+  "border_removal_distance": 4,
+  "decoder_hidden_size": 256,
+  "descriptor_decoder_dim": 256,
+  "encoder_hidden_sizes": [
+    64,
+    64,
+    128,
+    128
+  ],
+  "initializer_range": 0.02,
+  "keypoint_decoder_dim": 65,
+  "keypoint_threshold": 0.005,
+  "max_keypoints": -1,
+  "model_type": "superpoint",
+  "nms_radius": 4,
+  "torch_dtype": "float32",
+  "transformers_version": "4.35.0.dev0"
+}
