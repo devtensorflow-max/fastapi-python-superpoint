@@ -29,7 +29,8 @@ ADAPTIVE_SCORE_FACTOR = 0.50
 FRACTION_HIGH_SCORE = 0.50
 HIGH_SCORE_GATE = 0.15
 
-MODEL_NAME = "magic-leap-community/superpoint"
+# MODEL_NAME = "magic-leap-community/superpoint"
+MODEL_NAME = "./spm/"
 GEOM_MODEL = "homography"  # or "affine"
 
 # -------------------------
@@ -316,3 +317,4 @@ class SuperPointMatcher:
             thresholds
         )
         return {"match": "TRUE" if is_match else "FALSE", "diagnostics": diag}
+
